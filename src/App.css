@@ -598,37 +598,11 @@ button {
   transform-origin: center left;
 }
 
-.navbar-toggler {
-  background: transparent;
-  filter: blur(40px);
-}
-
-.navbar-toggler span:nth-child(1) {
-  margin-top: 0.3em;
-}
-
-.navbar-toggler:not(.collapsed) span:nth-child(1) {
-  transform: translate(15%, -33%) rotate(45deg);
-}
-
-.navbar-toggler:not(.collapsed) span:nth-child(2) {
-  opacity: 0;
-}
-
-.navbar-toggler:not(.collapsed) span:nth-child(3) {
-  transform: translate(15%, 33%) rotate(-45deg);
-}
-
-.navbar-toggler span:nth-child(1) {
-  transform: translate(0%, 0%) rotate(0deg);
-}
-
-.navbar-toggler span:nth-child(2) {
-  opacity: 1;
-}
-
-.navbar-toggler span:nth-child(3) {
-  transform: translate(0%, 0%) rotate(0deg);
+.navbar-toggler-icon{
+  background-color: white !important;
+  height: 25px !important;
+  width: 25px !important;
+  padding: 10px !important;
 }
 
 ::aria-current {
@@ -930,6 +904,36 @@ button {
   }
   .homebg{
     height:50vh;
+  }
+  .navbar-collapse {
+    height: 100vh;
+		width: 100%;
+		position: absolute;
+		transform: translateY(300px) translateX(-73px);
+    transition: 0ms;
+	  background: rgba(255, 255, 255, 0.05);
+	  backdrop-filter: blur(20px);
+	  box-shadow: 0 5px 15px rgba(75, 111, 209, 0.1);
+	  border-radius: 8px;
+	  z-index: 1;
+	  color: #000;
+		padding: 0px !important;
+		text-align: center;
+  } 
+  .me-auto{
+    margin-top: 60px;
+    color: white !important;  
+  } 
+  .navbar-toggler{
+    z-index: 2;
+  }   
+}
+@media (max-width: 500px) {
+  .navbar-collapse{
+    height: 100vh;
+		width: 150%;
+		position: absolute;
+		transform: translateY(400px) translateX(-80px);
   }
 }
 

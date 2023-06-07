@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css';
 import './contact.css';
 import './carousel.css';
-import Header from './App/Header';
 import Home from './App/home';
+import Header from './App/Header';
 import About from './App/About';
 import Contact from './App/Contact';
 import Footer from './App/Footer';
