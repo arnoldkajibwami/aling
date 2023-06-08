@@ -194,6 +194,14 @@ button {
   font-size: 15px !important;
   color: #acabab;
   text-transform: capitalize;
+ 
+}
+.nav-links{
+
+  font-size: 15px !important;
+  text-transform: capitalize;
+  color: white;
+  text-decoration: none !important;
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
@@ -523,6 +531,7 @@ button {
 
 .footer .footer-content .footer-links {
   margin-bottom: 30px;
+  
 }
 
 .footer .footer-content .footer-links ul {

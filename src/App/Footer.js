@@ -36,10 +36,10 @@ export default function Footer() {
                             <div className="col-lg-2 col-md-3 footer-links">
                                 <h4>Links</h4>
                                 <ul>
-                                    <li><Link to="/home " className="nav-link"> Accueil</Link></li>
-                                    <li><Link to="/about " className="nav-link"> Apropos</Link></li>
-                                    <li><Link to="/service " className="nav-link"> Service</Link></li>
-                                    <li><Link to="/contact " className="nav-link"> Contact</Link></li>
+                                    <li><Link to="/home " className="nav-links"> Accueil</Link></li>
+                                    <li><Link to="/about " className="nav-links"> Apropos</Link></li>
+                                    <li><Link to="/service " className="nav-links"> Service</Link></li>
+                                    <li><Link to="/contact " className="nav-links"> Contact</Link></li>
                                 </ul>
                             </div>
                         </div>
