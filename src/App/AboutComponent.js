@@ -12,7 +12,7 @@ export default function Aboutcomponent() {
                   <div className="row">
                      <div className="col-lg-6">
                         <div className="about_image">
-                           <img src={aboutImg} />
+                           <img src={aboutImg} alt="about"/>
                         </div>
                      </div>
                      <div className="col-lg-6">

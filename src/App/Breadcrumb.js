@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Breadcrumb(props) {
   return (
     <>
-      <div className="breadcrumbs">
+      <div className="breadcrumbs ">
         <div className="container position-relative d-flex flex-column align-items-center breadcrumbsall" >
           <h2>{props.page}</h2>
           <ol>

@@ -7,7 +7,7 @@ import Servicecarousel from "./Servicecarousel";
 export default function Home() {
    return (
       <>
-         <section className="homebg">
+         <section className="homebg c" >
             <div className="" >
                <Servicecarousel />
             </div>

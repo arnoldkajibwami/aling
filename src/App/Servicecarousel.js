@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
 import { useState } from 'react';
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 
 function Servicecarousel() {
@@ -12,25 +12,25 @@ function Servicecarousel() {
   };
 
 
-  function openWin() {
+  // function openWin() {
     // var myWindow
     // myWindow = window.open("Servicedescription", "myWindow:100");
-    const myWindow = window.open("Servicedescription", "myWindow:100");
-  }
+    // const myWindow = window.open("Servicedescription", "myWindow:100");
+  // }
 
-  // const navigate = useNavigate()
-  // function Entreprenariat() {
-  //     window.scrollTo(0, 296)
-  //     navigate("/serviceDescription")
-  // } 
-  // function Soustraitance() {
-  //     window.scrollTo(0, 300)
-  //     navigate("/serviceDescription")
-  // } 
-  // function Consultance() {
-  //     window.scrollTo(0, 450)
-  //     navigate("/serviceDescription")
-  // } 
+  const navigate = useNavigate()
+  function Entreprenariat() {
+      window.scrollTo(0, 296)
+      navigate("/serviceDescription")
+  } 
+  function Soustraitance() {
+      window.scrollTo(0, 300)
+      navigate("/serviceDescription")
+  } 
+  function Consultance() {
+      window.scrollTo(0, 450)
+      navigate("/serviceDescription")
+  } 
 
   return (
 
@@ -43,8 +43,8 @@ function Servicecarousel() {
               <p className="banner_text">It is a long established fact that a reader will be distracted by the readable content of a page when</p>
               <div className="btn_main">
                 <Link to='/contact' className="buttonBtn">Contact</Link>
-                {/* <span onClick={Entreprenariat} className="buttonBtn Plus">Lire Plus</span> */}
-                <span onClick={openWin} className="buttonBtn Plus">Lire Plus</span>
+                <span onClick={Entreprenariat} className="buttonBtn Plus">Lire Plus</span>
+                {/* <span onClick={openWin} className="buttonBtn Plus">Lire Plus</span> */}
               </div>
             </div>
           </div>
@@ -57,8 +57,8 @@ function Servicecarousel() {
             <p className="banner_text">It is a long established fact that a reader will be distracted by the readable content of a page when</p>
             <div className="btn_main">
               <Link to='/contact' className="buttonBtn">Contact</Link>
-              {/* <span onClick={Soustraitance} className="buttonBtn Plus">Plus</span> */}
-              <span onClick={openWin} className="buttonBtn Plus">Lire Plus</span>
+              <span onClick={Soustraitance} className="buttonBtn Plus">Lire Plus</span>
+              {/* <span onClick={openWin} className="buttonBtn Plus">Lire Plus</span> */}
             </div>
           </div>
         </Carousel.Caption>
@@ -70,8 +70,8 @@ function Servicecarousel() {
             <p className="banner_text">It is a long established fact that a reader will be distracted by the readable content of a page when</p>
             <div className="btn_main">
               <Link to='/contact' className="buttonBtn">Contact</Link>
-              {/* <span onClick={Consultance} className="buttonBtn Plus">Plus</span> */}
-              <span onClick={openWin} className="buttonBtn Plus">Lire Plus</span>
+              <span onClick={Consultance} className="buttonBtn Plus">Lire Plus</span>
+              {/* <span onClick={openWin} className="buttonBtn Plus">Lire Plus</span> */}
             </div>
           </div>
         </Carousel.Caption>

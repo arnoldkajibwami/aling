@@ -351,36 +351,12 @@ button {
   object-fit: cover;
 }
 
-.about_image::after {
-  content: '';
-  position: absolute;
-  width: 100px;
-  height: 390px;
-  /* background-color: skyblue; */
-  left: 0px;
-  right: initial;
-  top: 0;
-  z-index: -1;
-}
-
 .about_taital {
   width: 35%;
   float: left;
   font-size: 40px;
   color: #0f0f0f;
   font-weight: bold;
-}
-
-.about_taital::after {
-  content: '';
-  position: absolute;
-  width: 193px;
-  height: 2px;
-  background-color: #252525;
-  left: initial;
-  right: 0px;
-  top: 44%;
-  z-index: -1;
 }
 
 .about_text {
@@ -446,7 +422,7 @@ button {
   font-weight: bold;
 }
 
-.services_taital::after {
+/* .services_taital::after {
   content: '';
   position: absolute;
   width: 193px;
@@ -455,7 +431,7 @@ button {
   left: initial;
   right: 0px;
   top: 44%;
-}
+} */
 
 .services_section_2 {
   margin-bottom: 100px;
@@ -912,7 +888,7 @@ button {
 		transform: translateY(300px) translateX(-73px);
     transition: 0ms;
 	  background: rgba(255, 255, 255, 0.05);
-	  backdrop-filter: blur(20px);
+	  backdrop-filter: blur(30px);
 	  box-shadow: 0 5px 15px rgba(75, 111, 209, 0.1);
 	  border-radius: 8px;
 	  z-index: 1;
@@ -925,7 +901,7 @@ button {
     color: white !important;  
   } 
   .navbar-toggler{
-    z-index: 2;
+    z-index: 26;
   }   
 }
 @media (max-width: 500px) {
@@ -933,7 +909,11 @@ button {
     height: 100vh;
 		width: 150%;
 		position: absolute;
-		transform: translateY(400px) translateX(-80px);
+		transform: translateY(450px) translateX(-10px);
+    z-index: 25;
+  }
+  .nav-link{
+    transform: translate(-100px);
   }
 }
 
@@ -972,4 +952,15 @@ button {
 }
 .DescriptionAll {
   transform: translateY(-60px);
+}
+
+#navbar {
+  background: white;
+  color: rgb(13, 26, 38);
+  position: fixed;
+  top: 0;
+  height: 60px;
+  line-height: 60px;
+  width: 100%;
+  z-index: 10;
 }
