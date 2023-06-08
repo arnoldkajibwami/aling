@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom'
 import './App.css';
 import './contact.css';
 import './carousel.css';
@@ -12,12 +12,12 @@ import Service from './App/Service';
 import Servicedescription from './App/Servicedescription';
 
 function App () {
-  // const App () =>{
 
   return (
       <Router>
         <Header/>
         <Routes>
+          <Route exact path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/service" element={<Service />} />
