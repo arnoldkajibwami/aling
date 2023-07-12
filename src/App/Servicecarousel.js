@@ -28,7 +28,7 @@ function Servicecarousel() {
       navigate("/serviceDescription")
   } 
   function Consultance() {
-      window.scrollTo(0, 450)
+      window.scrollTo(0, 800)
       navigate("/serviceDescription")
   } 
 

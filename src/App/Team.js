@@ -5,7 +5,7 @@ import TeamContainer from "./TeamContainer";
 export default function Team() {
     return (
         <>
-            {/* <Breadcrumb page ={"Team"}/> */}
+            <Breadcrumb page ={"Team"}/>
             <TeamContainer />
         </>
     );
