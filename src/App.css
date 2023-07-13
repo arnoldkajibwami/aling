@@ -24,7 +24,7 @@ img {
   outline: 0;
 }
 
-.hidenav{
+.hidenav {
   display: none;
 }
 
@@ -183,23 +183,27 @@ button {
   /*background-color: rgba(0, 0, 0, 0.6);  */
   background-color: transparent !important;
 }
-.HomePage{
+
+.HomePage {
   font-size: 22px;
   text-decoration: none;
   color: #0f0f0f;
 }
-.HomePage:hover{
-  color:#0f0f0f;
+
+.HomePage:hover {
+  color: #0f0f0f;
 }
+
 .navbar-expand-lg .navbar-nav .nav-link {
   padding-right: 15px;
   padding-left: 15px;
   font-size: 15px !important;
   color: #acabab;
   text-transform: capitalize;
- 
+
 }
-.nav-links{
+
+.nav-links {
 
   font-size: 15px !important;
   text-transform: capitalize;
@@ -216,7 +220,7 @@ button {
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show>.nav-link {
- color: #ffffff;
+  color: #ffffff;
 }
 
 .logo {
@@ -534,7 +538,7 @@ button {
 
 .footer .footer-content .footer-links {
   margin-bottom: 30px;
-  
+
 }
 
 .footer .footer-content .footer-links ul {
@@ -568,7 +572,7 @@ button {
   text-decoration: none;
 }
 
-.Madename:hover{
+.Madename:hover {
   color: skyblue;
 }
 
@@ -586,7 +590,7 @@ button {
   transform-origin: center left;
 }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
   background-color: white !important;
   height: 25px !important;
   width: 25px !important;
@@ -618,7 +622,7 @@ button {
 @media (min-width: 991px) {
   .about .our-story {
     padding-right: 35%;
-  } 
+  }
 }
 
 .about .our-story h4 {
@@ -696,9 +700,10 @@ button {
   position: relative;
 }
 
-.gototeam:hover{
+.gototeam:hover {
   cursor: pointer;
 }
+
 @media (max-width: 1024px) {
   .team .member .member-img {
     margin: 0 60px;
@@ -766,7 +771,7 @@ button {
 
 .breadcrumbHome:hover {
   cursor: pointer;
-  color:white;
+  color: white;
 }
 
 .pageli {
@@ -811,7 +816,7 @@ button {
   background: rgb(0, 0, 0);
 }
 
-.contactBtn{
+.contactBtn {
   width: auto;
   height: auto;
 }
@@ -838,7 +843,8 @@ button {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-.contactBtn:hover{
+
+.contactBtn:hover {
   color: black !important;
 }
 
@@ -852,9 +858,11 @@ button {
     max-width: 45%;
     left: -7%;
   }
-  .banner_taital{
+
+  .banner_taital {
     font-size: 25px;
   }
+
   .banner_text {
     font-size: 14px;
   }
@@ -865,14 +873,17 @@ button {
     max-width: 50%;
     left: -10%;
   }
-  .banner_taital{
+
+  .banner_taital {
     font-size: 25px;
   }
+
   .banner_text {
     font-size: 14px;
   }
-  .homebg{
-    height:50vh;
+
+  .homebg {
+    height: 50vh;
   }
 }
 
@@ -881,65 +892,76 @@ button {
     max-width: 100%;
     left: 0%;
   }
-  .btn_main{
+
+  .btn_main {
     justify-content: center;
   }
-  .banner_taital{
+
+  .banner_taital {
     font-size: 25px;
   }
+
   .banner_text {
     font-size: 14px;
   }
-  .homebg{
-    height:50vh;
+
+  .homebg {
+    height: 50vh;
   }
+
   .navbar-collapse {
     height: 100vh;
-		width: 100%;
-		position: absolute;
-		transform: translateY(300px) translateX(-73px);
+    width: 100%;
+    position: absolute;
+    transform: translateY(300px) translateX(-73px);
     transition: 0ms;
-	  background: rgba(255, 255, 255, 0.05);
-	  backdrop-filter: blur(30px);
-	  box-shadow: 0 5px 15px rgba(75, 111, 209, 0.1);
-	  border-radius: 8px;
-	  z-index: 1;
-	  color: #000;
-		padding: 0px !important;
-		text-align: center;
-  } 
-  .me-auto{
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 5px 15px rgba(75, 111, 209, 0.1);
+    border-radius: 8px;
+    z-index: 1;
+    color: #000;
+    padding: 0px !important;
+    text-align: center;
+  }
+
+  .me-auto {
     margin-top: 60px;
-    color: white !important;  
-  } 
-  .navbar-toggler{
+    color: white !important;
+  }
+
+  .navbar-toggler {
     z-index: 26;
-  }   
+  }
 }
+
 @media (max-width: 500px) {
-  .navbar-collapse{
+  .navbar-collapse {
     height: 100vh;
-		width: 150%;
-		position: absolute;
-		transform: translateY(450px) translateX(-10px);
+    width: 150%;
+    position: absolute;
+    transform: translateY(450px) translateX(-10px);
     z-index: 25;
   }
-  .nav-link{
+
+  .nav-link {
     transform: translate(-100px);
   }
 }
 
-.carousel-control-prev{
-  display: none  !important;
+.carousel-control-prev {
+  display: none !important;
 }
 
-.carousel-control-next{
-  display: none  !important;
+.carousel-control-next {
+  display: none !important;
 }
-.backtotop{
+
+.backtotop {
   cursor: pointer;
 }
-.backtotop:hover{
+
+.backtotop:hover {
   transform: scale(1.2rem);
 }
 
@@ -955,13 +977,15 @@ button {
   background-repeat: no-repeat;
 }
 
-.HomeLink{
+.HomeLink {
   color: white;
   text-decoration: none !important;
 }
-.HomeLink:hover{
+
+.HomeLink:hover {
   color: white;
 }
+
 .DescriptionAll {
   transform: translateY(-60px);
 }
@@ -976,14 +1000,111 @@ button {
   width: 100%;
   z-index: 10;
 }
-.boxsservice{
+
+.boxsservice {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.boxsservice img{
+
+.boxsservice img {
   height: 40vh;
 }
-.boxsservice article{
+
+.boxsservice article {
   width: 40%;
+}
+
+.icon_1 i {
+  font-size: 3.3vh;
+}
+
+.buttonfooter {
+  width: 140px;
+  height: 56px;
+  overflow: hidden;
+  border: none;
+  color: #fff;
+  background: none;
+  position: relative;
+  padding-bottom: 2em;
+}
+
+.buttonfooter>div,
+.buttonfooter>svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.buttonfooter:before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  background: currentColor;
+  transition: transform 0.25s ease-out;
+}
+
+.buttonfooter:hover:before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.buttonfooter .clone>*,
+.buttonfooter .text>* {
+  opacity: 1;
+  font-size: 1.3rem;
+  transition: 0.2s;
+  margin-left: 4px;
+}
+
+.buttonfooter .clone>* {
+  transform: translateY(60px);
+}
+
+.buttonfooter:hover .clone>* {
+  opacity: 1;
+  transform: translateY(0px);
+  transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+
+.buttonfooter:hover .text>* {
+  opacity: 1;
+  transform: translateY(-60px);
+  transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+
+.buttonfooter:hover .clone> :nth-child(1) {
+  transition-delay: 0.15s;
+}
+
+.buttonfooter:hover .clone> :nth-child(2) {
+  transition-delay: 0.2s;
+}
+
+.buttonfooter:hover .clone> :nth-child(3) {
+  transition-delay: 0.25s;
+}
+
+.buttonfooter:hover .clone> :nth-child(4) {
+  transition-delay: 0.3s;
+}
+
+/* icon style and hover */
+.buttonfooter svg {
+  width: 20px;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(-50deg);
+  transition: 0.2s ease-out;
+}
+
+.buttonfooter:hover svg {
+  transform: translateY(-50%) rotate(-90deg);
 }

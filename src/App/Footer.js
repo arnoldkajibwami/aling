@@ -1,5 +1,9 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
+import { BiLogoInstagram } from "react-icons/bi"
+import { BiLogoFacebook } from "react-icons/bi"
+import { BiLogoTwitter } from "react-icons/bi"
+import { BiLogoLinkedin } from "react-icons/bi"
 
 export default function Footer() {
     const navigate = useNavigate()
@@ -26,20 +30,20 @@ export default function Footer() {
                                         <strong>Email:</strong> groupealing@gmail.com<br />
                                     </p>
                                     <div className="social-links d-flex mt-3">
-                                        <Link href="#" className="d-flex align-items-center justify-content-center"><i className="bi bi-twitter"></i></Link>
-                                        <Link href="#" className="d-flex align-items-center justify-content-center"><i className="bi bi-facebook"></i></Link>
-                                        <Link href="#" className="d-flex align-items-center justify-content-center"><i className="bi bi-instagram"></i></Link>
-                                        <Link href="#" className="d-flex align-items-center justify-content-center"><i className="bi bi-linkedin"></i></Link>
+                                        <Link to="/home" className="d-flex align-items-center justify-content-center"><i><BiLogoFacebook/></i></Link>
+                                        <Link to="/home" className="d-flex align-items-center justify-content-center"><i><BiLogoInstagram/></i></Link>
+                                        <Link to="/home" className="d-flex align-items-center justify-content-center"><i><BiLogoTwitter/></i></Link>
+                                        <Link to="/home" className="d-flex align-items-center justify-content-center"><i><BiLogoLinkedin/></i></Link>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-2 col-md-3 footer-links">
                                 <h4>Links</h4>
                                 <ul>
-                                    <li><Link to="/home " className="nav-links"> Accueil</Link></li>
-                                    <li><Link to="/about " className="nav-links"> Apropos</Link></li>
-                                    <li><Link to="/service " className="nav-links"> Service</Link></li>
-                                    <li><Link to="/contact " className="nav-links"> Contact</Link></li>
+                                    <li><Link to="/home "  onClick={BackToTOP} className="nav-links"> Accueil</Link></li>
+                                    <li><Link to="/about "  onClick={BackToTOP} className="nav-links"> Apropos</Link></li>
+                                    <li><Link to="/service "  onClick={BackToTOP} className="nav-links"> Service</Link></li>
+                                    <li><Link to="/contact "  onClick={BackToTOP} className="nav-links"> Contact</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -47,7 +51,23 @@ export default function Footer() {
                 </div>
                 <div className="footer-legal text-center position-relative">
                     <div className="container">
-                        <div onClick={BackToTOP} className="m-3 backtotop">Up</div>
+                    <div onClick={BackToTOP} className="m-3 backtotop">
+                            <button className="buttonfooter">
+                                <div class="text">
+                                    <span>Back</span>
+                                    <span>to</span>
+                                    <span>top</span>
+                                </div>
+                                <div class="clone">
+                                    <span>Back</span>
+                                    <span>to</span>
+                                    <span>top</span>
+                                </div>
+                                <svg width="20px" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </button>
+                        </div>
                         <div className="copyright">
                             &copy; Copyright <strong><span><Link to="www.gaps.netlify.app" className="Madename">Groupe Aling</Link></span></strong>. All Rights Reserved
                         </div>
