@@ -33,8 +33,8 @@ function Servicecarousel() {
   } 
 
   return (
-
-    <Carousel activeIndex={index} onSelect={handleSelect}>
+        <div className="servicecarousel">
+          <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
         <Carousel.Caption>
           <div className="banner_main card">
@@ -77,7 +77,9 @@ function Servicecarousel() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
-  );
+
+        </div>
+      );
 }
 
 

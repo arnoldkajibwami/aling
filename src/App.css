@@ -226,6 +226,7 @@ button {
 .logo {
   width: 25%;
   float: left;
+  /* color: #181818 !important; */
 }
 
 .mr-auto,
@@ -737,7 +738,7 @@ button {
 }
 
 .team .member .member-img .social a:hover {
-  color: b;
+  color: black;
 }
 
 .team .member .member-info {
@@ -792,9 +793,10 @@ button {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 60vh;
+  height: 70vh;
   width: auto;
 }
+
 
 .buttonBtn {
   width: 6.5em;
@@ -844,6 +846,7 @@ button {
   transition: all 0.5s;
 }
 
+
 .contactBtn:hover {
   color: black !important;
 }
@@ -883,7 +886,7 @@ button {
   }
 
   .homebg {
-    height: 50vh;
+    height: 60vh;
   }
 }
 
@@ -906,9 +909,9 @@ button {
   }
 
   .homebg {
-    height: 50vh;
+    height: 60vh;
   }
-
+  
   .navbar-collapse {
     height: 100vh;
     width: 100%;
@@ -935,6 +938,11 @@ button {
   }
 }
 
+.carousel-caption{
+  /* display: none !important; */
+  margin-top: 50px !important;
+}
+
 @media (max-width: 500px) {
   .navbar-collapse {
     height: 100vh;
@@ -946,6 +954,14 @@ button {
 
   .nav-link {
     transform: translate(-100px);
+  }
+}
+@media (max-width: 400px){
+  .homebg{
+    height: 50vh;
+  }
+  .carousel-caption{
+    margin-top: 70px !important;
   }
 }
 
@@ -991,7 +1007,7 @@ button {
 }
 
 #navbar {
-  background: white;
+  background: transparent !important;
   color: rgb(13, 26, 38);
   position: fixed;
   top: 0;
@@ -999,6 +1015,14 @@ button {
   line-height: 60px;
   width: 100%;
   z-index: 10;
+}
+.navbar{
+  position: fixed !important;
+}
+.navbar.colorChange {
+  background-color:rgb(44, 43, 43) !important;
+  /* background-color:  rgb(250, 9, 9) !important; */
+  transition: 0.3s ease-in-out !important;
 }
 
 .boxsservice {
@@ -1108,3 +1132,6 @@ button {
 .buttonfooter:hover svg {
   transform: translateY(-50%) rotate(-90deg);
 }
+
+
+
